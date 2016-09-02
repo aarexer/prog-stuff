@@ -72,4 +72,7 @@ class YSolutions {
     */
 
   def setDifference(a: Array[Int], b: Array[Int]): Seq[Int] = ???
+  
+  //the simplest solution
+  def setDifference(a: Array[Int], b: Array[Int]): Seq[Int] = a.toSet - b.toSet
 }
