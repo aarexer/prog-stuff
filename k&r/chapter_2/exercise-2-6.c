@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+
+
 unsigned getbits(unsigned x, int n, int p, unsigned y)
 {
     unsigned rmby;    
